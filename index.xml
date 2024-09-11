@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journey</title>
+    <link>http://www.ashwinnayak.com/</link>
+    <description>Recent content on Journey</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Wed, 11 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.ashwinnayak.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remote Controlled Lawn Mower - Analysis of mower</title>
+      <link>http://www.ashwinnayak.com/2024/09/remote-controlled-lawn-mower-analysis-of-mower/</link>
+      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.ashwinnayak.com/2024/09/remote-controlled-lawn-mower-analysis-of-mower/</guid>
+      <description>&lt;p&gt;This article shares intent to convert a gasoline lawn mover to a remote controlled lawn mower and what questions need to be answered to proceed with the design.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
