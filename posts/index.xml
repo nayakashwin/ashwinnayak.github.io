@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Journey</title>
-    <link>http://www.ashwinnayak.com/</link>
-    <description>Recent content on Journey</description>
+    <title>Posts on Journey</title>
+    <link>http://www.ashwinnayak.com/posts/</link>
+    <description>Recent content in Posts on Journey</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
     <lastBuildDate>Wed, 11 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.ashwinnayak.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.ashwinnayak.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remote Controlled Lawn Mower - Analysis of mower</title>
       <link>http://www.ashwinnayak.com/2024/09/remote-controlled-lawn-mower-analysis-of-mower/</link>

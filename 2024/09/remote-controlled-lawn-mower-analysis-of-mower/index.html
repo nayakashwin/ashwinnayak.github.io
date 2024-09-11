@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Remote Controlled Lawn Mower - Analysis of mower - Journey</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <meta itemprop="name" content="Remote Controlled Lawn Mower - Analysis of mower">
+  <meta itemprop="description" content="Exploring how to covert a gasoline lawn mover to a remote controlled lawn mower">
+  <meta itemprop="datePublished" content="2024-09-11T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-09-11T00:00:00+00:00">
+  <meta itemprop="wordCount" content="445">
+  <meta itemprop="keywords" content="Robotics,BLDC,Bldc-Controller,Cheap,Lawn,Mower"><meta property="og:url" content="http://www.ashwinnayak.com/2024/09/remote-controlled-lawn-mower-analysis-of-mower/">
+  <meta property="og:site_name" content="Journey">
+  <meta property="og:title" content="Remote Controlled Lawn Mower - Analysis of mower">
+  <meta property="og:description" content="Exploring how to covert a gasoline lawn mover to a remote controlled lawn mower">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-09-11T00:00:00+00:00">
+    <meta property="article:tag" content="Robotics">
+    <meta property="article:tag" content="BLDC">
+    <meta property="article:tag" content="Bldc-Controller">
+    <meta property="article:tag" content="Cheap">
+    <meta property="article:tag" content="Lawn">
+    <meta property="article:tag" content="Mower">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Remote Controlled Lawn Mower - Analysis of mower">
+  <meta name="twitter:description" content="Exploring how to covert a gasoline lawn mover to a remote controlled lawn mower">
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.ashwinnayak.com/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.ashwinnayak.com/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://www.ashwinnayak.com/css/dark.css" />
+
+	<script src="http://www.ashwinnayak.com/js/feather.min.js"></script>
+	
+		<script src="http://www.ashwinnayak.com/js/main.js"></script>
+</head>
+
+
+<body>
+
+
+	
+	<div class="container-wide wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="http://www.ashwinnayak.com/">Journey</a></h1>
+	<div class="site-description"><p>Documenting activities for future reference so I don&rsquo;t lose them</p><nav class="nav social">
+			<ul class="flat"><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags &amp; Stats</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		
+<div class="article-nav" id="article-nav-id">
+    <div class="post">
+        <div class="post-header">
+    
+    <div class="meta">
+        <div class="date">
+            <span class="day">11</span>
+            <span class="rest">Sep 2024</span>
+        </div>
+    </div>
+    
+    <div class="matter">
+        <h1 class="title">Remote Controlled Lawn Mower - Analysis of mower</h1>
+    </div>
+</div>
+
+
+        
+        
+        <aside class="toc" id="static-toc">
+            <header>
+                <h3>Contents</h3>
+            </header>
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#reusable-parts-of-a-lawn-mower">Reusable Parts of a Lawn Mower</a></li>
+    <li><a href="#parts-of-a-lawn-mower-which-cannot-be-used">Parts of a Lawn Mower which cannot be used</a></li>
+    <li><a href="#deck">Deck</a></li>
+    <li><a href="#gasoline-engine-with-fuel-tank-and-cable-start">Gasoline engine with fuel tank and cable start</a></li>
+    <li><a href="#wheels">Wheels</a></li>
+    <li><a href="#pushbar">Pushbar</a></li>
+    <li><a href="#transmission">Transmission</a></li>
+    <li><a href="#design-decisions">Design Decisions</a></li>
+  </ol>
+</nav>
+        </aside>
+        
+
+        <p>This article shares intent to convert a gasoline lawn mover to a remote controlled lawn mower and what questions need to be answered to proceed with the design.</p>
+<h2 id="reusable-parts-of-a-lawn-mower">Reusable Parts of a Lawn Mower</h2>
+<ol>
+<li>Deck</li>
+<li>Gasoline engine with fuel tank and cable start</li>
+</ol>
+<h2 id="parts-of-a-lawn-mower-which-cannot-be-used">Parts of a Lawn Mower which cannot be used</h2>
+<ol>
+<li>Wheels</li>
+<li>Pushbar</li>
+<li>Transmission</li>
+</ol>
+<h2 id="deck">Deck</h2>
+<p>The deck for the lawn mower I got is made of steel. It has a few rust spots but nothing too bad as the previous owner did not do a lot of mowing. This can be a good base to install an electric motor with wheels or a BLDC motorwith integrated wheels (e.g. howerboard wheels).</p>
+<h2 id="gasoline-engine-with-fuel-tank-and-cable-start">Gasoline engine with fuel tank and cable start</h2>
+<p>The gasoline engine engine has an inbuilt fuel tank along with a cable start. The engine does work. Its in rough shape and might need some TLC. Needs new spark plugs. The carburetor does need some tuning as it generates some smoke. I am hoping the engine does not need any major investments like pistons, rings etc.</p>
+<h2 id="wheels">Wheels</h2>
+<p>All 4 wheels are made of plastic and in very rugh shape. 1 wheel is broken. These wheels cannot be used as the entire wheel adjustment mechanism is rusted and it took me a while to remove the wheel and the adjuster.</p>
+<h2 id="pushbar">Pushbar</h2>
+<p>The pushbar is in good shape. However, for a remote controlled mower it may serve no purpose. For now I don&rsquo;t think we can do much with it.</p>
+<h2 id="transmission">Transmission</h2>
+<p>This is a walk-behind lawn mower. The transmissions in these systems are pretty rudimentary. The transmission powers the back wheels only and both wheels seem to engage at the same time. Its in bad shape as well and cannot be reused since we want the entire lawn mower to turn on a dime.</p>
+<h2 id="design-decisions">Design Decisions</h2>
+<p>So now that we have the mower there are a couple of design decisions which need to be made.</p>
+<p>For example: -</p>
+<ol>
+<li>What kind of wheels to use to drive the mower?</li>
+<li>What kind of motor controller do we need to use?</li>
+<li>Would the mower use 4 driving wheels or 2 driving wheels with steering?</li>
+<li>What kind of batteries to use to drive the mower?</li>
+<li>What kind of remote control to use to drive the mower?</li>
+<li>What kind of fail safes would we implement to ensure the mower can be safely stopped?</li>
+<li>Do we wish to install cameras for a head unit?</li>
+<li>How would we keep the noise/emf from the engine from messing the eletronics?</li>
+<li>What kind of navigation system we wish to implement?</li>
+<li>Do we want this mower to be autonomous?</li>
+<li>What kind of microcontroller do we wish to use?</li>
+</ol>
+
+    </div>
+    <nav class="hide-on-mobile section-nav">
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#reusable-parts-of-a-lawn-mower">Reusable Parts of a Lawn Mower</a></li>
+    <li><a href="#parts-of-a-lawn-mower-which-cannot-be-used">Parts of a Lawn Mower which cannot be used</a></li>
+    <li><a href="#deck">Deck</a></li>
+    <li><a href="#gasoline-engine-with-fuel-tank-and-cable-start">Gasoline engine with fuel tank and cable start</a></li>
+    <li><a href="#wheels">Wheels</a></li>
+    <li><a href="#pushbar">Pushbar</a></li>
+    <li><a href="#transmission">Transmission</a></li>
+    <li><a href="#design-decisions">Design Decisions</a></li>
+  </ol>
+</nav>
+    </nav>
+</div>
+<div class="post">
+    <hr class="footer-separator" />
+<div class="tags">
+    
+    
+    <ul class="flat">
+        
+        
+        <li class="tag-li"><a href="/tags/robotics">robotics</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/bldc">BLDC</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/bldc-controller">bldc-controller</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/cheap">cheap</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/lawn">lawn</a>
+        </li>
+        
+        
+        <li class="tag-li"><a href="/tags/mower">mower</a>
+        </li>
+        
+    </ul>
+    
+    
+</div>
+
+
+<div class="back">
+    <a href="https://github.com/nayakashwin/nayakashwin.github.io.git/blob/master/content/posts/2024/September/Remote%20Controlled%20Lawn%20Mower%20-%20Analysis%20of%20mower.md" title="github"><i
+            data-feather="github"></i> Edit this on GitHub</a>
+</div>
+
+
+<div class="back">
+    <a href="http://www.ashwinnayak.com/"><span aria-hidden="true">← Back</span></a>
+</div>
+
+
+<div class="back">
+    
+</div>
+
+</div>
+
+	</div>
+	
+
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2024  © Copyright notice </div>
+		
+	</nav>
+</div><script>feather.replace()</script>
+	
+	<script>
+    var enableTruncate =  true 
+    var filterDepth = false;
+    const MAX_DEPTH = 9; 
+
+    
+    window.addEventListener('DOMContentLoaded', () => {
+        const observerForTableOfContentActiveState = new IntersectionObserver(entries => {
+            entries.reverse().forEach(entry => {
+                const id = entry.target.getAttribute('id');
+                if (entry.intersectionRatio > 0) {
+                    var selected = document.querySelectorAll(`nav li a[href="#${id}"]`)
+                    if (selected != null) {
+                        selected.forEach(s => {
+                            if (s != null) {
+                                var depth = getDepth(s.parentElement);
+                                if (filterDepth && depth <= MAX_DEPTH) {
+                                    clearActiveStatesInTableOfContents();
+                                    s.parentElement.classList.add('active')
+                                }
+                            } else if (!filterDepth) {
+                                clearActiveStatesInTableOfContents();
+                                s.parentElement.classList.add('active');
+                            }
+                        }
+                        )
+                    }
+
+                }
+            });
+        });
+        document.querySelectorAll('h1[id],h2[id],h3[id],h4[id]').forEach((section) => {
+            observerForTableOfContentActiveState.observe(section);
+        });
+
+    });
+
+    
+    function isVisible(elem) {
+        if (!(elem instanceof Element)) return false; 
+        const style = getComputedStyle(elem);
+        if (style.display === 'none') return false;
+        if (style.visibility !== 'visible') return false;
+        if (style.opacity < 0.1) return false;
+        if (elem.offsetWidth + elem.offsetHeight + elem.getBoundingClientRect().height +
+            elem.getBoundingClientRect().width === 0) {
+            return false;
+        }
+        const elemCenter = {
+            x: elem.getBoundingClientRect().left + elem.offsetWidth / 2,
+            y: elem.getBoundingClientRect().top + elem.offsetHeight / 2
+        };
+        if (elemCenter.x < 0) return false;
+        if (elemCenter.x > (document.documentElement.clientWidth || window.innerWidth)) return false;
+        if (elemCenter.y < 0) return false;
+        if (elemCenter.y > (document.documentElement.clientHeight || window.innerHeight)) return false;
+        let pointContainer = document.elementFromPoint(elemCenter.x, elemCenter.y);
+        do {
+            if (pointContainer === elem) return true;
+        } while (pointContainer = pointContainer.parentNode);
+        return false;
+    }
+
+
+    function clearActiveStatesInTableOfContents() {
+        document.querySelectorAll('nav li').forEach((section) => {
+            section.classList.remove('active');
+        });
+    }
+
+    function getDepth(parentElement) {
+        var depth = 0;
+        while (parentElement !== null && parentElement.tagName.toLowerCase() !== 'ul') {
+            depth++;
+            parentElement = parentElement.parentElement;
+        }
+        return depth;
+    }
+
+    function navItems() {
+        
+        var nestedListItems = document.querySelectorAll('nav nav li a');
+        return Array.from(nestedListItems).filter(listItem =>
+            listItem.href != null && listItem.hash.startsWith("#")
+        )
+    }
+
+    function lasItemInNavBarVisible() {
+        var lastItem = navItems().slice(-1)[0]
+        return isVisible(lastItem)
+    }
+
+
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        if (!enableTruncate) return;
+        var navBar = navItems()
+        console.log(navBar)
+        if (!lasItemInNavBarVisible()) {
+            filterDepth = true;
+            
+            navBar.forEach(function (listItem) {
+                var depth = getDepth(listItem.parentElement);
+
+                if (depth > MAX_DEPTH) {
+                    listItem.parentElement.classList.add('depth-nested');
+                }
+            });
+        }
+
+    });
+
+</script>
+
+	
+</body>
+
+</html>
