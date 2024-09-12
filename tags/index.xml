@@ -2,53 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Journey</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://www.ashwinnayak.com/tags/</link>
     <description>Recent content in Tags on Journey</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 11 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Sep 2024 12:32:55 -0500</lastBuildDate>
+    <atom:link href="http://www.ashwinnayak.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BLDC</title>
-      <link>http://localhost:1313/tags/bldc/</link>
-      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bldc/</guid>
+      <link>http://www.ashwinnayak.com/tags/bldc/</link>
+      <pubDate>Thu, 12 Sep 2024 12:32:55 -0500</pubDate>
+      <guid>http://www.ashwinnayak.com/tags/bldc/</guid>
       <description></description>
     </item>
     <item>
       <title>Bldc-Controller</title>
-      <link>http://localhost:1313/tags/bldc-controller/</link>
-      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bldc-controller/</guid>
+      <link>http://www.ashwinnayak.com/tags/bldc-controller/</link>
+      <pubDate>Thu, 12 Sep 2024 12:32:55 -0500</pubDate>
+      <guid>http://www.ashwinnayak.com/tags/bldc-controller/</guid>
       <description></description>
     </item>
     <item>
       <title>Cheap</title>
-      <link>http://localhost:1313/tags/cheap/</link>
-      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cheap/</guid>
+      <link>http://www.ashwinnayak.com/tags/cheap/</link>
+      <pubDate>Thu, 12 Sep 2024 12:32:55 -0500</pubDate>
+      <guid>http://www.ashwinnayak.com/tags/cheap/</guid>
       <description></description>
     </item>
     <item>
       <title>Lawn</title>
-      <link>http://localhost:1313/tags/lawn/</link>
-      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/lawn/</guid>
+      <link>http://www.ashwinnayak.com/tags/lawn/</link>
+      <pubDate>Thu, 12 Sep 2024 12:32:55 -0500</pubDate>
+      <guid>http://www.ashwinnayak.com/tags/lawn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Motor</title>
+      <link>http://www.ashwinnayak.com/tags/motor/</link>
+      <pubDate>Thu, 12 Sep 2024 12:32:55 -0500</pubDate>
+      <guid>http://www.ashwinnayak.com/tags/motor/</guid>
       <description></description>
     </item>
     <item>
       <title>Mower</title>
-      <link>http://localhost:1313/tags/mower/</link>
-      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mower/</guid>
+      <link>http://www.ashwinnayak.com/tags/mower/</link>
+      <pubDate>Thu, 12 Sep 2024 12:32:55 -0500</pubDate>
+      <guid>http://www.ashwinnayak.com/tags/mower/</guid>
       <description></description>
     </item>
     <item>
       <title>Robotics</title>
-      <link>http://localhost:1313/tags/robotics/</link>
-      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/robotics/</guid>
+      <link>http://www.ashwinnayak.com/tags/robotics/</link>
+      <pubDate>Thu, 12 Sep 2024 12:32:55 -0500</pubDate>
+      <guid>http://www.ashwinnayak.com/tags/robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wheel</title>
+      <link>http://www.ashwinnayak.com/tags/wheel/</link>
+      <pubDate>Thu, 12 Sep 2024 12:32:55 -0500</pubDate>
+      <guid>http://www.ashwinnayak.com/tags/wheel/</guid>
       <description></description>
     </item>
   </channel>

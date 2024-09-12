@@ -2,34 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/bldc/</loc>
-    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+    <loc>http://www.ashwinnayak.com/tags/bldc/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bldc-controller/</loc>
-    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+    <loc>http://www.ashwinnayak.com/tags/bldc-controller/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cheap/</loc>
-    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+    <loc>http://www.ashwinnayak.com/tags/cheap/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+    <loc>http://www.ashwinnayak.com/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lawn/</loc>
-    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+    <loc>http://www.ashwinnayak.com/tags/lawn/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mower/</loc>
-    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+    <loc>http://www.ashwinnayak.com/tags/motor/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+    <loc>http://www.ashwinnayak.com/tags/mower/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2024/09/remote-controlled-lawn-mower-analysis-of-mower/</loc>
-    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+    <loc>http://www.ashwinnayak.com/posts/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/robotics/</loc>
-    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+    <loc>http://www.ashwinnayak.com/2024/09/remote-controlled-lawn-mower-analysis-wheel-and-motor/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://www.ashwinnayak.com/tags/robotics/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
+  </url><url>
+    <loc>http://www.ashwinnayak.com/tags/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
+  </url><url>
+    <loc>http://www.ashwinnayak.com/tags/wheel/</loc>
+    <lastmod>2024-09-12T12:32:55-05:00</lastmod>
+  </url><url>
+    <loc>http://www.ashwinnayak.com/2024/09/remote-controlled-lawn-mower-analysis-of-mower/</loc>
     <lastmod>2024-09-11T00:00:00+00:00</lastmod>
   </url>
 </urlset>
