@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 27 Sep 2024 05:58:48 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2025 20:27:58 -0600</lastBuildDate>
     <atom:link href="http://www.ashwinnayak.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remote Controlled Lawn Mower   Analysis   Motor Controller2</title>
+      <link>http://www.ashwinnayak.com/2025/02/remote-controlled-lawn-mower-analysis-motor-controller2/</link>
+      <pubDate>Wed, 12 Feb 2025 20:27:58 -0600</pubDate>
+      <guid>http://www.ashwinnayak.com/2025/02/remote-controlled-lawn-mower-analysis-motor-controller2/</guid>
+      <description>&lt;p&gt;After a long delay being busy with office work and some things around the home I finally got back to the lawn mover.&lt;/p&gt;&#xA;&lt;p&gt;The controllers I had procured had some issues. For example some of the controllers would not like my pwm signal controls for some reason. I bought the controller chips on the board and after replacing them the PWM feature seemed to work. I am contemplating if I should in fact use the PWM signal or just drive it using the analog pin.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Remote Controlled Lawn Mower - Analysis - Motor Controller</title>
       <link>http://www.ashwinnayak.com/2024/09/remote-controlled-lawn-mower-analysis-motor-controller/</link>
